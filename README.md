@@ -32,3 +32,12 @@ To build:
 Once ssh'd into the vm, symlink .emacs.d:
 
     $ ln -s /vagrant/emacs.d .emacs.d
+
+Using
+-----
+
+Run emacs, and run chm-view-file:
+
+    $ emacs &
+    M-x chm-view-file
+
