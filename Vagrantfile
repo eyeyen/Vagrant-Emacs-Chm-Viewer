@@ -8,7 +8,7 @@ Vagrant::Config.run do |config|
   # please see the online documentation at vagrantup.com.
 
   # Every Vagrant virtual environment requires a box to build off of.
-  config.vm.box = "base"
+  config.vm.box = "lucid32"
   config.ssh.forward_x11 = true
 
   # The url from where the 'config.vm.box' box will be fetched if it
